@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.exp-box{
+    display: flex;
+    background-color:black;
+}
+.exp-img img{
+    height: 300px;
+    width: 400px;
+    padding: 2rem;
+    border-radius: 5rem;
+
+}
+.exp-img{
+    margin-left: 2.5%;
+
+
+    
+}
+.exp-box h1{
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+    word-spacing: 0.2em;
+    color: white;
+    font: 3em 'Times New Roman', Times, serif;
+}
+.exp-box span{
+    color: orangered;
+}
+.exp-box h3{
+    padding-top: 1.5rem;
+    padding-left: 3rem;
+    line-height: 10px;
+    letter-spacing:0.1em;
+    color: white;
+    font: 1.5em 'Times New Roman', Times, serif;
+
+}
+.exp-box p{
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 3rem;
+    color: white;
+    text-align: center;
+    font: 1em sans-serif;
+    word-spacing: 0.1em;
+    /* letter-spacing: 0.1em; */
+    line-height:25px;
+}

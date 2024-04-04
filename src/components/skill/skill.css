@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.skilltop{
+    background-color:rgba(10, 10, 10, 0.979);
+}
+.skill-heading{
+    text-align: center;
+    padding-top: 2em;
+}
+.skill-heading h1{
+    /* padding-top: 0.5em; */
+    font: 2.6em sans-serif;
+    font-weight: 600;
+    color:white;
+    /* letter-spacing: 0.1em; */
+    /* color:orangered; */
+}
+.skill-heading p{
+    padding-top: 0.3em;
+    color:orangered;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    /* color:orangered; */
+}
+
+.skill-box{
+    display:flex;
+    justify-content: space-evenly;
+    padding:3rem;
+    padding-bottom: 4rem;
+    /* margin-left: 20%; */
+}
+.skill-fr{
+    display:flex;
+    justify-content: space-around;
+   
+}
+.skill-fr p{
+    line-height: 3rem;
+    margin-top: 1.8rem;
+    font: 1.3em sans-serif;
+    font-weight: 600;
+    /* letter-spacing:0.1em; */
+}
+.skill-ba p{
+    line-height: 3rem;
+    margin-top: 1.8rem;
+    font: 1.3em sans-serif;
+    font-weight: 600;
+
+    /* letter-spacing:0.1em; */
+}
+.skill-fr h5{
+   color:black;
+   top: 0;
+   color:orangered;
+   font: 01em sans-serif;
+   padding-left: 1.5rem;
+}
+.skill-ba h5{
+   color:black;
+   top: 0;
+   color:orangered;
+   font: 01em sans-serif;
+   padding-left: 1.5rem;
+}
+.skill-ba{
+    display:flex;
+    justify-content: space-around;
+
+}
+.skill-f2{
+  padding-left: 10px;
+  padding-right: 1rem;
+}
+.skill-f1{
+  margin-right:4rem;
+  padding-left: 1rem;
+}
+.skill-b2{
+  padding-left: 10px;
+}
+.skill-b1{
+  margin-right:3rem;
+}
+.skill-box1 h3{
+    text-align: center;
+    padding-top: 1em;
+    font: 1.5em sans-serif;
+    font-weight: 600;
+}
+.skill-box1{
+    background-color:white;
+    height: 320px;
+    width: 380px;
+    border-radius: 20px;
+}
+.skill-box2{
+    background-color:white;
+     height: 320px;
+    width: 380px;
+    border-radius: 20px;
+}
+.skill-box2 h3{
+    text-align: center;
+    padding-top: 1em;
+    font: 1.5em sans-serif;
+    font-weight: 600;
+}
+.skill-box p:hover{
+    font: 1.5em sans-serif;
+    color: orangered;
+}
+.skill-box span{
+    color: orangered;
+}

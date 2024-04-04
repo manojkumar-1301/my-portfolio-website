@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.proj-sec{
+    background-color:rgba(10, 10, 10, 700);
+}
+.proj-box{
+    display: grid;
+    grid-template:1fr 1fr  / 1fr 1fr;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 15rem;
+    padding-right: 3rem;
+    row-gap: 1.5rem;
+    column-gap: 0;
+    color:white;
+}
+.proj-heading h1 span{
+    color: orangered;
+}
+.proj-heading h1{
+    color:white;
+}
+.proj-heading p{
+    color: white;
+}
+.proj-box h5{
+    color: orangered;
+}
+.proj-box img{
+    height: 250px;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    border-radius: 2rem;
+}
+.proj-heading{
+    padding-top: 3rem;
+    padding-left: 15rem;
+    padding-right: 10rem;
+}
+.proj-heading p{
+    padding: 1rem;
+    width: 80%;
+    font: 1.2em;
+}
+.proj-heading h1{
+   font: 2.5em 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 600;
+}
+.pro{
+    padding-left:15px ;
+}
+.pro p{
+    padding-left:10px;
+    line-height:5%;
+}
+.pro a{
+    padding-left:10px ;
+}
+
+.proj-1{
+    width: 70%;
+    margin-left: 50px;
+
+}
+.proj-2{
+    width: 70%;
+    margin-left: 50px;
+}
+.proj-3{
+    width: 70%;
+    margin-left: 50px;
+}
+.proj-4{
+    width: 70%;
+    /* background-color: blue; */
+}
+.proj-5{
+    width: 70%;
+    margin-left: 50px;
+    /* background-color: blueviolet; */
+}
+.proj-6{
+    width: 70%;
+    margin-left: 50px;
+}
+.proj-box h5{
+    padding-top: 1rem;
+    font: 1.3em sans-serif;
+    font-weight: 500;
+}
+.proj-box p{
+    padding-top: 0.5rem;
+    font: 1em sans-serif;
+    padding-bottom: 0.6rem;
+    line-height:25px;
+}
